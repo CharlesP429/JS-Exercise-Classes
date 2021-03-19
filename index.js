@@ -22,6 +22,7 @@ class Airplane {
     }
   }
   
+
   /*
   // 👇 COMPLETE YOUR WORK BELOW 👇
   // 👇 COMPLETE YOUR WORK BELOW 👇
@@ -42,9 +43,17 @@ class Airplane {
   */
   
  class Person {
-    
-  }
+    name: 'legolas';
+    age: '490'
+
+    return Person.eat("someFood");
+    return `${this.name} poops.`;
+  };
+console.log(Person)
+
   
+
+
   /*
     TASK 2
       - Write a Car class whose constructor initializes `model` and `milesPerGallon` from arguments.
@@ -60,9 +69,17 @@ class Airplane {
   */
   
  class Car {
-    
-  }
-  
+    model: 'G63 AMG 6x6'
+    milesPerGallon: '8'
+  };
+  class getGas {
+    tank: '0';
+    odometer: '0'
+
+  return(getGas)  
+  };
+ 
+
   /*
     TASK 3
       - Write a Lambdasian class.
@@ -76,9 +93,13 @@ class Airplane {
           + {name} and {location} of course come from the instance's own properties.
   */
  class Lambdasian {
-    
+    name: 'charles';
+    age: '30';
+    location: 'utah'
   }
-  
+  return `Hello my name is ${this.name}, I am from ${this.location}.`;
+
+  console.log(Lambdasian)
   /*
     TASK 4
       - Write an Instructor class extending Lambdasian.
@@ -94,7 +115,7 @@ class Airplane {
           + `grade` receives a `student` object and a `subject` string as arguments and returns '{student.name} receives a perfect score on {subject}'
   */
  class Instructor {
-
+name: 'i dont understand any of this'
  }
   /*
     TASK 5
