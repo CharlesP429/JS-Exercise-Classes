@@ -22,6 +22,7 @@ class Airplane {
     }
   }
   
+
   /*
   // 👇 COMPLETE YOUR WORK BELOW 👇
   // 👇 COMPLETE YOUR WORK BELOW 👇
@@ -76,9 +77,13 @@ class Airplane {
           + {name} and {location} of course come from the instance's own properties.
   */
  class Lambdasian {
-    
+    name: 'charles';
+    age: '30';
+    location: 'utah'
   }
-  
+  return `Hello my name is ${this.name}, I am from ${this.location}.`;
+
+  console.log(Lambdasian)
   /*
     TASK 4
       - Write an Instructor class extending Lambdasian.
