@@ -115,7 +115,7 @@ console.log(Person)
           + `grade` receives a `student` object and a `subject` string as arguments and returns '{student.name} receives a perfect score on {subject}'
   */
  class Instructor {
-
+name: 'i dont understand any of this'
  }
   /*
     TASK 5
