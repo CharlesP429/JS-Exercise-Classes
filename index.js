@@ -43,9 +43,17 @@ class Airplane {
   */
   
  class Person {
-    
-  }
+    name: 'legolas';
+    age: '490'
+
+    return Person.eat("someFood");
+    return `${this.name} poops.`;
+  };
+console.log(Person)
+
   
+
+
   /*
     TASK 2
       - Write a Car class whose constructor initializes `model` and `milesPerGallon` from arguments.
@@ -61,9 +69,17 @@ class Airplane {
   */
   
  class Car {
-    
-  }
-  
+    model: 'G63 AMG 6x6'
+    milesPerGallon: '8'
+  };
+  class getGas {
+    tank: '0';
+    odometer: '0'
+
+  return(getGas)  
+  };
+ 
+
   /*
     TASK 3
       - Write a Lambdasian class.
